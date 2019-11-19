@@ -105,7 +105,7 @@ Maven does not expand the JAR as part of the build process, so we would need to 
             <id>unpack</id>
             <phase>compile</phase>
             <goals>
-                <goal>unpack</goal>
+                <goal>process-resources</goal>
             </goals>
             <configuration>
                 <artifactItems>
